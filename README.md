@@ -1,1 +1,1 @@
-# chatbot_using_java
+# Simple chatbot develop using Brainshop.ai API which uses NLP to send response to user's messages. 
