@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/back_color"
+    android:background="@color/purple_200"
     tools:context=".chatbot.BotActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -44,7 +44,7 @@
             android:layout_marginEnd="4dp"
             android:layout_marginBottom="4dp"
             android:backgroundTint="@color/white"
-            android:src="@drawable/ic_baseline_send_24"
+
             android:tint="@color/white"
             app:fabCustomSize="45dp" />
 

@@ -97,16 +97,11 @@ public class BotActivity extends AppCompatActivity {
         });
 
     }
-//@Override
-//    public void onBackPressed()
-//{
-//    super.onBackPressed();
-//}
 
     @Override
     public void onBackPressed() {
         Intent myIntent = new Intent(BotActivity.this, Home.class);
-        //myIntent.putExtra("key", value); //Optional parameters
+
         BotActivity.this.startActivity(myIntent);
     }
 }
