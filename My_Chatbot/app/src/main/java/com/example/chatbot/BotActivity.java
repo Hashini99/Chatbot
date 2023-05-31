@@ -32,8 +32,7 @@ public class BotActivity extends AppCompatActivity {
     private FloatingActionButton sendMsgFab;
     private final String BOT_KEY = "bot";
     private final String USER_KEY = "user";
-//    private final String BOT_KEY = "bot";
-//    private final String USER_KEY = "user";
+
     private ArrayList<ChatsModel> chatsModelArrayList;
     private ChatAdaptor chatAdaptor;
 
@@ -70,7 +69,7 @@ public class BotActivity extends AppCompatActivity {
         chatAdaptor.notifyDataSetChanged();
 
          String url="http://api.brainshop.ai/get?bid=173963&key=Lejk0Em2XNYkeR4O&uid=[uid]&msg="+message;
-       // String url = "http://api.brainshop.ai/get?bid=161286&key=GVNLpbjWlpqyAz6Q&uid=[uid]&msg="+message;
+
 
         String baseurl = "http://api.brainshop.ai/";
 
